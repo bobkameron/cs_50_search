@@ -1,16 +1,31 @@
 <!DOCTYPE html>
 <html lang= "en">
     <head>
-
+        <title>Google Advanced Search</title>
+        <!-- <link href = "template.css" rel = "stylesheet"> -->
+        <link href = "adv_template.css" rel = "stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
-    <body>
-        <p> Find Pages With:</p>
-        <form action = "https://www.google.com/search">
-            <p> all these words: <input type = "text" name = "as_q" > </p>
-            <p> this exact word or phrase: <input type = "text" name = "as_epq">    </p>
-            <p> any of these words: <input type = "text" name = "as_oq"></p>
-            <p> none of these words: <input type = "text" name = "as_eq"> </p>
-            <p> <input type = "submit" Value = "Advanced Search"></p>
+    <body >
+        
+        <header>
+            <img id = "logo" src = "googlelogo_color_272x92dp.png" alt = "Google Logo" > </div>
+            <a  id = "link" href = "index.html">Google Search</a>
+        </header>
+        
+        <p id="adv-search"> Advanced Search</p>
+        <hr>
+        <p id = "find-pages"> Find pages with...</p>
+        <form class = "grid" action = "https://www.google.com/search">
+            <div id = "first-form">all these words:</div>  <input id = "first-entry"  type = "text" name = "as_q" > 
+            
+            <div> this exact word or phrase: </div> <input type = "text" name = "as_epq">    
+            <div> any of these words: </div> <input type = "text" name = "as_oq">
+            <div> none of these words: </div>  <input type = "text" name = "as_eq"> 
+            <div> </div>
+             <input     type = "submit" Value = "Advanced Search">
+            
         </form>
+    
     </body>
 </html>
